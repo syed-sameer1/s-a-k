@@ -1,0 +1,58 @@
+.address {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px 20px 20px;
+}
+
+.address * {
+    margin: 0;
+    color: #555;
+    font-size: 19px;
+}
+
+.address h2 {
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    padding: 15px 0;
+    border-bottom: 3px solid #2c698d;
+    color: black;
+}
+
+.companyName {
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.fullAddress {
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+
+.phone span {
+    font-weight: bold;
+}
+
+.email span {
+    font-weight: bold;
+}
+
+.email {
+    padding-top: 10px;
+}
+
+@media (max-width: 695px) {
+    .address {
+        padding: 20px;
+    }
+    .address h2 {
+        font-size: 20px;
+    }
+    .address * {
+        font-size: 15px;
+    }
+}

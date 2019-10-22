@@ -1,0 +1,17 @@
+footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(160, 160, 160);
+}
+footer p span {
+  color: white;
+  font-family: "Vidaloka", serif;
+}
+
+@media (max-width: 660px) {
+  footer p {
+    font-size: 12px;
+  }
+}

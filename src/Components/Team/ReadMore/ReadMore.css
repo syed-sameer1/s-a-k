@@ -1,0 +1,149 @@
+.MainDetail {
+  padding: 0 10px;
+  margin-top: 100px;
+}
+
+.cross {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cross i {
+  font-size: 40px;
+  margin: 20px;
+  color: #272643;
+  cursor: pointer;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name img {
+  height: 150px;
+  border-radius: 100%;
+}
+
+.name h1 {
+  font-family: "Ubuntu", sans-serif;
+  margin: 10px 0;
+  border-bottom: 6px double #2c698d;
+  padding-bottom: 20px;
+}
+
+.name h1 sub {
+  font-size: 16px;
+}
+
+.fullDetail p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  line-height: 1.6em;
+  text-align: justify;
+  padding: 0 30px;
+}
+
+.headings {
+  display: flex;
+  border-bottom: 4px solid #2c698d;
+}
+
+.headings h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.lists ul {
+  list-style-type: none;
+}
+
+.lists ul li {
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6em;
+}
+
+.lists ul li i {
+  font-size: 12px;
+  color: #272643;
+}
+
+.lists ul li:hover i {
+  margin-right: 5px;
+  transition: 0.5s;
+}
+
+@media (max-width: 762px) {
+  .name {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 600px) {
+  .name h1 {
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+    margin: 10px 0;
+    border-bottom: 6px double #2c698d;
+    padding-bottom: 20px;
+  }
+  .name h1 sub {
+    font-size: 12px;
+  }
+  .fullDetail p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    text-align: justify;
+    padding: 0 20px;
+  }
+  .lists {
+    padding: 0;
+  }
+  .lists ul li {
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+  }
+  .headings h3 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .name img {
+    height: 100px;
+    border-radius: 100%;
+  }
+  .name h1 {
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    margin: 10px 0;
+    border-bottom: 6px double #2c698d;
+    padding-bottom: 20px;
+  }
+  .name h1 sub {
+    font-size: 8px;
+  }
+  .fullDetail p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 1.6em;
+    text-align: justify;
+    padding: 0 20px;
+  }
+  .lists ul li {
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+  }
+  .headings h3 {
+    font-size: 12px;
+  }
+}
