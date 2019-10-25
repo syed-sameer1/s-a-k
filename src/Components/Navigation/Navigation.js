@@ -24,12 +24,6 @@ const Navigation = () => {
             <span>team</span>
           </li>
           <li>
-            <span>gallery</span>
-          </li>
-          <li>
-            <span>clients</span>
-          </li>
-          <li>
             <span>contact</span>
           </li>
         </ul>

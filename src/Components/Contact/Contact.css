@@ -1,87 +1,89 @@
 .main {
-    display: flex;
-    margin-bottom: 100px;
+  display: flex;
+  margin-bottom: 100px;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 50%;
-    margin: 50px 50px 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  margin: 50px 50px 0 100px;
 }
 
 .office {
-    display: flex;
-    width: 50%;
-    flex-direction: column;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
 }
 
-.form input, .form textarea {
-    height: 50px;
-    width: 100%;
-    margin: 10px;
-    outline: none;
-    border: none;
-    border-bottom: 4px solid #71bbe6;
-    background-color: whitesmoke;
-    padding-left: 15px;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
+.form input,
+.form textarea {
+  height: 50px;
+  width: 100%;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 4px solid #00a2ff;
+  background-color: whitesmoke;
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 
 .form input::placeholder {
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 
 .form textarea {
-    height: 150px;
+  height: 150px;
 }
 
 .form .submit {
-    margin: 10px;
-    padding: 10px 30px;
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    color: rgb(245, 245, 245);
-    border: none;
-    border-radius: 50px;
-    outline: none;
-    cursor: pointer;
-    background: linear-gradient( #71bbe6, #94d6fd)
+  margin: 10px;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  background: #00a2ff;
 }
 
 .form .submit:hover {
-    background: linear-gradient(#94d6fd, #71bbe6)
+  background: rgb(4, 120, 252);
 }
 
 @media (max-width: 768px) {
-    .main {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .form {
-        margin: 10px;
-        width: 90%;
-    }
-    .form input, .form textarea {
-        margin: 10px 0 10px 0;
-        font-size: 15px;
-        height: 35px;
-        width: 95%;
-    }
-    .form textarea {
-        height: 100px;
-    }
-    .form input::placeholder {
-        font-size: 15px;
-    }
-    .office {
-        width: 90%;
-    }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .form {
+    margin: 10px;
+    width: 90%;
+  }
+  .form input,
+  .form textarea {
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+    height: 35px;
+    width: 95%;
+  }
+  .form textarea {
+    height: 100px;
+  }
+  .form input::placeholder {
+    font-size: 15px;
+  }
+  .office {
+    width: 90%;
+  }
 }

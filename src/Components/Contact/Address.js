@@ -4,7 +4,7 @@ const Adress = props => {
   return (
     <div className="address">
       <h2>{props.officeName}</h2>
-      <p className="companyName">ASK–ADVOCATES & LEGAL CONSULTANTS</p>
+      <p className="companyName">SEEMA, ABIDI, KHAN & ASSOCIATES</p>
       <p className="fullAddress">{props.address}</p>
       <p className="phone">
         <span>Tel: </span>021-35686810

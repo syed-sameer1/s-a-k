@@ -13,13 +13,13 @@ const About = () => {
             <img src={photo} alt="head" />
           </div>
           <div className="para">
-            <h2>ASK–ADVOCATES & LEGAL CONSULTANTS</h2>
+            <h2>SEEMA, ABIDI, KHAN & ASSOCIATES</h2>
             <p>
-              ASK–ADVOCATES & LEGAL CONSULTANTS is a leading Pakistan-based law
+              SEEMA, ABIDI, KHAN & ASSOCIATES is a leading Pakistan-based law
               firm working as a progressive and dynamic full service firm with
               help of a talent pool of some of the best Pakistani lawyers. The
               firm has its law chamber at Karachi and we provide seamless legal
-              services. Beginning with a very modest setting, ASK has grown,
+              services. Beginning with a very modest setting, SAK has grown,
               over the years, both in size and reputation and has become a
               benchmark of quality amongst professional law firms in Pakistan
               providing legal services, in its core practice areas, throughout
