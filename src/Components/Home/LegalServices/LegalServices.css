@@ -1,0 +1,33 @@
+.LegalServices {
+    background: url('../../../asseset/images/bg-services.jpg');
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.LegalServices h2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    padding: 15px 0;
+    border-bottom: 3px solid #2c698d;
+}
+
+.ServicesCards {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 1fr 1fr; */
+    align-items: center;
+    justify-content: center;
+}
+
+.centerCard {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}

@@ -1,0 +1,63 @@
+.homeAbout {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 20px;
+}
+
+.homeAbout h2 {
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    padding: 15px 0;
+    border-bottom: 3px solid #2c698d;
+}
+
+.homeAbout p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.para h2 {
+    text-align: left;
+}
+
+.para {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.photo {
+    margin-top: 80px;
+}
+
+.photo img {
+    height: 500px;
+}
+
+@media (max-width: 1200px) {
+    .homeAbout {
+        flex-direction: column-reverse;
+    }
+    .photo img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 695px) {
+    .photo img {
+        height: 300px;
+        margin-right: 20px;
+    }
+    .para {
+        padding: 0 10px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 425px) {
+    .photo img {
+        height: 200px;
+        margin-right: 20px;
+    }
+}

@@ -30,8 +30,11 @@
 .name h1 {
   font-family: "Ubuntu", sans-serif;
   margin: 10px 0;
-  border-bottom: 6px double #2c698d;
-  padding-bottom: 20px;
+  border-bottom: 3px solid #2c698d;
+  font-family: "Bitter", serif;
+  font-style: italic;
+  /* text-transform: lowercase;*/
+  /* padding-bottom: 0px; */
 }
 
 .name h1 sub {
@@ -52,7 +55,7 @@
 }
 
 .headings h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: italic;
   margin: 10px 0;
 }

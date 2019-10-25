@@ -1,0 +1,95 @@
+.TeamCard {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  /* border-radius: 10px; */
+  /* background-position: center; */
+  /* background-size: 100% 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 20px; */
+  /* margin: 50px; */
+  transition: 0.5s;
+  flex-direction: column;
+}
+
+.TeamCard img {
+  height: 251px;
+  border-radius: 150px;
+}
+
+.TeamDetail {
+  background-color: rgba(22, 22, 22, 0.507);
+  color: rgb(126, 126, 126);
+  height: 50%;
+  width: 100%;
+  /* border-radius: 10px; */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 12px;
+  line-height: 2em;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: none;
+  /* padding: 0 5px; */
+  border: 1px solid white;
+  border-radius: 0 0 150px 150px;
+  transition: 0.5s;
+}
+
+.TeamCardBtn {
+  /* margin: 10px; */
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  background: #00a2ff;
+}
+
+.TeamCardBtn:hover {
+  background: rgb(4, 120, 252);
+}
+
+.TeamCardHeading {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  padding: 15px 0;
+  font-weight: 400;
+  margin: 0;
+}
+
+.TeamCard:hover .TeamDetail {
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+@media (max-width: 425px) {
+  .TeamCard {
+    height: 200px;
+    width: 200px;
+  }
+  .TeamCard img {
+    height: 201px;
+  }
+  .TeamCard h3 {
+    font-size: 16px;
+  }
+  .TeamDetail button {
+    padding: 8px 15px;
+    font-size: 13px;
+  }
+}

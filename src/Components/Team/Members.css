@@ -1,45 +1,45 @@
-figure {
+.Members {
   display: flex;
   align-items: center;
   /* flex-direction: row-reverse; */
 }
 
-figure img {
+.Members img {
   height: 200px;
   border-radius: 100%;
 }
 
-figcaption h3 {
+.MembersDetail h3 {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-figcaption .dtl {
+.MembersDetail .dtl {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: #555;
 }
 
-figcaption .contact {
+.MembersDetail .contact {
   font-size: 15px;
   font-weight: bold;
 }
 
-figcaption * {
+.MembersDetail * {
   margin: 0;
 }
 
-figcaption {
+.MembersDetail {
   display: inline-block;
   color: #000;
   text-decoration: none;
   padding: 10px 50px;
 }
 
-figcaption::after {
+.MembersDetail::after {
   content: "";
   display: block;
   width: 0;
@@ -49,7 +49,7 @@ figcaption::after {
   margin-top: 10px;
 }
 
-figcaption:hover::after {
+.MembersDetail:hover::after {
   width: 100%;
   transition: width 0.3s;
 }
@@ -58,32 +58,32 @@ figcaption:hover::after {
   color: #2c698d;
 }
 
-figcaption:hover .readMore {
+.MembersDetail:hover .readMore {
   margin-left: 10px;
   transition: 0.5s;
 }
 
 @media (max-width: 660px) {
-  figure {
+  .Members {
     flex-direction: column;
     margin: 10px;
   }
-  figcaption {
+  .MembersDetail {
     padding: 10px 10px;
   }
 }
 
 @media (max-width: 450px) {
-  figure img {
+  .Members img {
     height: 100px;
   }
-  figcaption h3 {
+  .MembersDetail h3 {
     font-size: 15px;
   }
-  figcaption .dtl {
+  .MembersDetail .dtl {
     font-size: 13px;
   }
-  figcaption .contact {
+  .MembersDetail .contact {
     font-size: 13px;
   }
 }

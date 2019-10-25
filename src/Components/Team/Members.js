@@ -5,9 +5,9 @@ import "./Members.css";
 const Members = props => {
   return (
     <StyleRoot>
-      <figure style={props.RStyle}>
+      <figure style={props.RStyle} className="Members">
         <img src={props.image} alt="MemberImage" />
-        <figcaption>
+        <figcaption className="MembersDetail">
           <h3>{props.name}</h3>
           <p className="dtl">{props.detail}</p>
           <p className="contact">{props.contact}</p>

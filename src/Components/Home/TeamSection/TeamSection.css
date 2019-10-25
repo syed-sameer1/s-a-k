@@ -1,0 +1,24 @@
+.TeamSection {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.TeamSection h2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    padding: 15px 0;
+    border-bottom: 3px solid #2c698d;
+}
+
+.TeamCards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

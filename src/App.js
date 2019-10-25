@@ -6,6 +6,7 @@ import Navigation from "./Components/Navigation/Navigation";
 import Team from "./Components/Team/Team";
 import ReadMore from "./Components/Team/ReadMore/ReadMore";
 import Contact from "./Components/Contact/Contact";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <About /> */}
       {/* <Team /> */}
       {/* <ReadMore /> */}
-      <Contact />
+      {/* <Contact /> */}
+      <Home />
       <Footer />
     </>
   );
