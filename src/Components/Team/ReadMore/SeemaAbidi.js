@@ -2,7 +2,7 @@ import React from "react";
 import "./ReadMore.css";
 import img from "../../../asseset/images/memebr.jpg";
 
-const ReadMore = () => {
+const SeemaAbidi = () => {
   return (
     <div className="MainDetail">
       <div className="name">
@@ -118,4 +118,4 @@ const ReadMore = () => {
   );
 };
 
-export default ReadMore;
+export default SeemaAbidi;

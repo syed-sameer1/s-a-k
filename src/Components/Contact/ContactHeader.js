@@ -3,8 +3,8 @@ import "./ContactHeader.css";
 
 const ContactHeader = () => {
   return (
-    <header className="Cheader">
-      <div className="Cheading">
+    <header className="header">
+      <div className="heading">
         <span>Contact Us</span>
       </div>
       <div className="wave"></div>

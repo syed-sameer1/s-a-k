@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import photo from "../../asseset/images/photo.jpg";
+import HassanRazaWork from "../../asseset/images/Team-images/HassanRazaWork.jpg";
 import AboutHeader from "./AboutHeader";
 
 const About = () => {
@@ -10,7 +10,7 @@ const About = () => {
       <main>
         <div className="detail-start">
           <div className="photo">
-            <img src={photo} alt="head" />
+            <img src={HassanRazaWork} alt="head" />
           </div>
           <div className="para">
             <h2>SEEMA, ABIDI, KHAN & ASSOCIATES</h2>

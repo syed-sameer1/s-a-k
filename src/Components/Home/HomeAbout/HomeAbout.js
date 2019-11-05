@@ -1,12 +1,12 @@
 import React from "react";
-import photo from "../../../asseset/images/photo.jpg";
+import KazimRazaWork from "../../../asseset/images/Team-images/KazimRazaWork.jpg";
 import "./HomeAbout.css";
 
 const HomeAbout = () => {
   return (
     <div className="homeAbout">
       <div className="photo">
-        <img src={photo} alt="head" />
+        <img src={KazimRazaWork} alt="head" />
       </div>
       <div className="para">
         <h2>About Us</h2>

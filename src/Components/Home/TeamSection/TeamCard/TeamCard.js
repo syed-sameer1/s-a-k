@@ -17,7 +17,7 @@
 
 import React, { Component } from "react";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
-import sample from "../../../../asseset/images/memebr.jpg";
+
 import "./TeamCard.css";
 
 class TeamCard extends Component {
@@ -47,7 +47,7 @@ class TeamCard extends Component {
           }}
         >
           <img
-            src={sample}
+            src={this.props.image}
             alt="member"
             style={{
               width: "200px",
