@@ -11,20 +11,30 @@ import AliAbbas from "./Components/Team/ReadMore/AliAbbas";
 import KazimRaza from "./Components/Team/ReadMore/KazimRaza";
 import HassanAbidi from "./Components/Team/ReadMore/HassanAbidi";
 import MohsinKhan from "./Components/Team/ReadMore/MohsinKhan";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navigation />
-      <About />
-      {/* <Team /> */}
+      <Router>
+        <Navigation />
+        <Switch>
+          <Route path="/about" component={About} />
+          <Route path="/team" component={Team} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/" exact component={Home} />
+          <Route path="/SeemaAbidi" component={SeemaAbidi} />
+          <Route path="/AliAbbas" component={AliAbbas} />
+          <Route path="/KazimRaza" component={KazimRaza} />
+          <Route path="/HassanAbidi" exact component={HassanAbidi} />
+          <Route path="/MohsinKhan" exact component={MohsinKhan} />
+        </Switch>
+      </Router>
       {/* <SeemaAbidi />
       <AliAbbas />
       <KazimRaza />
       <HassanAbidi />
       <MohsinKhan /> */}
-      {/* <Contact /> */}
-      {/* <Home /> */}
       <Footer />
     </>
   );

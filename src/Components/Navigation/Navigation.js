@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../asseset/images/LOGO.png";
 import hamburger from "../../asseset/images/hamburger.png";
+import { Link } from "react-router-dom";
 import "./Navigation.css";
 
 const Navigation = () => {
@@ -12,19 +13,29 @@ const Navigation = () => {
       <nav>
         <ul>
           <li>
-            <span>home</span>
+            <Link to="/" className="navStyle">
+              <span>Home</span>
+            </Link>
           </li>
           <li>
-            <span>about</span>
+            <Link to="/about" className="navStyle">
+              <span>about</span>
+            </Link>
           </li>
           <li>
-            <span>expertise</span>
+            <Link to="/expertise" className="navStyle">
+              <span>expertise</span>
+            </Link>
           </li>
           <li>
-            <span>team</span>
+            <Link to="/team" className="navStyle">
+              <span>team</span>
+            </Link>
           </li>
           <li>
-            <span>contact</span>
+            <Link to="/contact" className="navStyle">
+              <span>contact</span>
+            </Link>
           </li>
         </ul>
       </nav>
