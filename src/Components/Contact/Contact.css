@@ -17,8 +17,7 @@
   flex-direction: column;
 }
 
-.form input,
-.form textarea {
+.form input, .form textarea {
   height: 50px;
   width: 100%;
   margin: 10px;
@@ -70,8 +69,7 @@
     margin: 10px;
     width: 90%;
   }
-  .form input,
-  .form textarea {
+  .form input, .form textarea {
     margin: 10px 0 10px 0;
     font-size: 15px;
     height: 35px;
@@ -85,5 +83,9 @@
   }
   .office {
     width: 90%;
+  }
+  .main {
+    display: flex;
+    margin-bottom: 20px;
   }
 }
