@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../asseset/images/LOGO.png";
+import logo from "../../asseset/images/LOGO2.png";
 import hamburger from "../../asseset/images/hamburger.png";
 import { Link } from "react-router-dom";
 import "./Navigation.css";

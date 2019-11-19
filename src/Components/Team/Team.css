@@ -8,7 +8,7 @@ main {
 
 main h2 {
   font-size: 25px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: italic;
   padding: 15px 0;
   border-bottom: 3px solid #2c698d;
@@ -52,7 +52,7 @@ main h2 {
 @media (max-width: 695px) {
   .photo img {
     height: 300px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
   }
   .para {
     padding: 0 10px;
@@ -63,6 +63,6 @@ main h2 {
 @media (max-width: 425px) {
   .photo img {
     height: 200px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
   }
 }

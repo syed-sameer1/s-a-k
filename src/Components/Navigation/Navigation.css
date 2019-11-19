@@ -22,10 +22,6 @@
   margin-right: 25px;
 }
 
-.ham-burger img {
-  height: 80px;
-}
-
 /* nav ul {
   display: flex;
   align-items: center;
@@ -80,13 +76,13 @@ nav ul li:hover {
 }
 
 .nav-bar nav ul:hover li span {
-  transform: scale(1.5);
+  transform: scale(1);
   opacity: 0.2;
   filter: blur(3px);
 }
 
 .nav-bar nav ul li span:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
   opacity: 1;
   color: black;
   filter: blur(0);
@@ -116,6 +112,9 @@ nav ul li:hover {
   background: #555;
   color: #fff;
 }
+.ham-burger img {
+  height: 30px;
+}
 
 @media (max-width: 1000px) {
   .ham-burger {
@@ -132,6 +131,9 @@ nav ul li:hover {
   }
   .ham-burger {
     margin-right: 10px;
+  }
+  .logo img {
+    height: 130px;
   }
 }
 

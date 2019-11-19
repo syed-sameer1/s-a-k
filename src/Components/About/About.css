@@ -2,11 +2,13 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 main h2 {
   font-size: 25px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: italic;
   padding: 15px 0;
   border-bottom: 3px solid #2c698d;
@@ -21,6 +23,8 @@ main p {
 .detail-start {
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
 }
 
 .para h2 {
@@ -52,7 +56,7 @@ main p {
 @media (max-width: 695px) {
   .photo img {
     height: 300px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
   }
   .para {
     padding: 0 10px;
@@ -63,6 +67,6 @@ main p {
 @media (max-width: 425px) {
   .photo img {
     height: 200px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
   }
 }
