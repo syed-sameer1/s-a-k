@@ -8,7 +8,6 @@ const TeamHeader = () => {
       <div className="heading">
         <span>Our Team</span>
       </div>
-      <div className="wave"></div>
     </header>
   );
 };
