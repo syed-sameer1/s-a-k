@@ -5,13 +5,14 @@ import Footer from "./Components/Footer/Footer";
 import Navigation from "./Components/Navigation/Navigation";
 import Team from "./Components/Team/Team";
 import SeemaAbidi from "./Components/Team/ReadMore/SeemaAbidi";
+import Menu from "./Components/Menu/Menu";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import AliAbbas from "./Components/Team/ReadMore/AliAbbas";
 import KazimRaza from "./Components/Team/ReadMore/KazimRaza";
 import HassanAbidi from "./Components/Team/ReadMore/HassanAbidi";
 import MohsinKhan from "./Components/Team/ReadMore/MohsinKhan";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/KazimRaza" component={KazimRaza} />
           <Route path="/HassanAbidi" exact component={HassanAbidi} />
           <Route path="/MohsinKhan" exact component={MohsinKhan} />
+          <Route path="/menu" component={Menu} />
         </Switch>
       </Router>
       {/* <SeemaAbidi />

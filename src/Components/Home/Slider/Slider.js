@@ -27,7 +27,6 @@ const Slider = () => {
           <div className="slider3"></div>
         </div>
       </Slide>
-      <div className="wave"></div>
     </div>
   );
 };

@@ -39,6 +39,13 @@ const LegelServices = () => {
           you during the entire year."
           icon={courtIcon}
         />
+        <ServicesCard
+          ServiceName="Dispute Resolution"
+          ServiceDetail="You can engage our firm on a yearly/monthly retainer so that you have legal help.
+          We shall endeavor to ensure that our most suitable partner, supported by one associate is dedicated for
+          you during the entire year."
+          icon={bookIcon}
+        />
       </div>
     </div>
   );

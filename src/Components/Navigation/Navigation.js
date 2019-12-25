@@ -18,11 +18,6 @@ const Navigation = () => {
             </Link>
           </li>
           <li>
-            <Link to="/about" className="navStyle">
-              <span>about</span>
-            </Link>
-          </li>
-          <li>
             <Link to="/expertise" className="navStyle">
               <span>expertise</span>
             </Link>
@@ -40,7 +35,9 @@ const Navigation = () => {
         </ul>
       </nav>
       <div className="ham-burger">
-        <img src={hamburger} alt="icon" />
+        <Link to="/menu">
+          <img src={hamburger} alt="icon" />
+        </Link>
       </div>
     </div>
   );

@@ -7,7 +7,6 @@ const ContactHeader = () => {
       <div className="heading">
         <span>Contact Us</span>
       </div>
-      <div className="wave"></div>
     </header>
   );
 };

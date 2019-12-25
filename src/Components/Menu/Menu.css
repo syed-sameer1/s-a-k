@@ -1,0 +1,46 @@
+.Menu {
+    position: absolute;
+    top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+}
+
+.Menu ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+    transition: 0.5s;
+    text-align: center;
+    width: 100%;
+}
+
+.mobile-menu {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+    font-size: 16px;
+}
+
+.Menu ul li:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.Menu ul li:hover .mobile-menu {
+    color: white;
+    transition: 0.5s;
+}

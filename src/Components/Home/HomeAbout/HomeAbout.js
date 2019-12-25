@@ -9,7 +9,7 @@ const HomeAbout = () => {
         <img src={HassanRazaWork} alt="head" />
       </div>
       <div className="para">
-        <h2>About Us</h2>
+        <h2>SEEMA, ABIDI, KHAN & ASSOCIATES</h2>
         <p>
           SEEMA, ABIDI, KHAN & ASSOCIATES is a leading Pakistan-based law firm
           working as a progressive and dynamic full service firm with help of a

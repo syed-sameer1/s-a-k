@@ -11,7 +11,7 @@ const Home = () => {
       <Slider />
       <HomeAbout />
       <LegalServices />
-      <TeamSection />
+      {/* <TeamSection /> */}
     </>
   );
 };

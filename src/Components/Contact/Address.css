@@ -17,6 +17,7 @@
     padding: 15px 0;
     border-bottom: 3px solid #2c698d;
     color: black;
+    text-transform: capitalize;
 }
 
 .companyName {

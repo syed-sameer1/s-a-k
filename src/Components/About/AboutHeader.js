@@ -7,7 +7,6 @@ const AboutHeader = () => {
       <div className="heading">
         <span>About Us</span>
       </div>
-      <div className="wave"></div>
     </header>
   );
 };

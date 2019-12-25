@@ -8,15 +8,6 @@
   justify-content: center;
 }
 
-.Cheader .wave {
-  position: absolute;
-  width: 100%;
-  height: 143px;
-  bottom: 0;
-  left: 0;
-  background: url(../../asseset/images/wave.png);
-}
-
 .Cheading {
   display: flex;
   align-items: center;

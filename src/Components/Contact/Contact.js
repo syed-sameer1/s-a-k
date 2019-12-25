@@ -18,14 +18,14 @@ const Contact = () => {
         </div>
         <div className="office">
           <Address
-            officeName="MAIN OFFICE:"
+            officeName="Main Office:"
             address="301-302, Al-Ameera Centre,
                     Near Passport Office,
                     Shahrah-e-Iraq, Saddar,
                     Karachi"
           />
           <Address
-            officeName="SUB OFFICE:"
+            officeName="Sub Office:"
             address="1st Floor, Dine Inn Restaurant
             Opposite UBL-Nazimabad Branch,
             C/37, Rizvia Cooperative
