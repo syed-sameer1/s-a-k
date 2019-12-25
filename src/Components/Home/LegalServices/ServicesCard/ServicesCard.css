@@ -15,6 +15,7 @@
   padding: 20px;
   margin: 25px;
 }
+
 .ServicesCard img {
   height: 55px;
 }
@@ -50,11 +51,11 @@
   /* border-radius: 50px; */
   outline: none;
   cursor: pointer;
-  background: #00a2ff;
+  background: #d4a86c;
 }
 
 .ServiceDetail button:hover {
-  background: rgb(4, 120, 252);
+  background: #e2a653;
 }
 
 .ServicesCard h3 {
@@ -71,6 +72,53 @@
   transition: 0.5s;
   display: flex;
   cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.modal h3 {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  /* padding: 15px 0; */
+  margin: 0;
+  font-weight: 600;
+}
+
+.modal a {
+  margin: 10px;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(245, 245, 245);
+  border: none;
+  /* border-radius: 50px; */
+  outline: none;
+  cursor: pointer;
+  background: #d4a86c;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.modal a:hover {
+  background: #e2a653;
+}
+
+.modal p {
+  text-align: center;
+}
+
+.modal img {
+  height: 55px;
 }
 
 @media (max-width: 425px) {

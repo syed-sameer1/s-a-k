@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../asseset/images/LOGO2.png";
+import logo from "../../asseset/images/LOGO3.png";
 import hamburger from "../../asseset/images/hamburger.png";
 import { Link } from "react-router-dom";
 import "./Navigation.css";
@@ -24,7 +24,17 @@ const Navigation = () => {
           </li>
           <li>
             <Link to="/team" className="navStyle">
-              <span>team</span>
+              <span>Partners</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/team" className="navStyle">
+              <span>Team</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/team" className="navStyle">
+              <span>Clients</span>
             </Link>
           </li>
           <li>

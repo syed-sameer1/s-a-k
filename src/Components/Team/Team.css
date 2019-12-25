@@ -8,10 +8,10 @@ main {
 
 main h2 {
   font-size: 25px;
-  font-family: "Playfair Display", serif;
+  font-family: "lato", serif;
   font-style: italic;
   padding: 15px 0;
-  border-bottom: 3px solid #2c698d;
+  border-bottom: 3px solid #d4a86c;
 }
 
 /* main p {

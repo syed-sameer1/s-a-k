@@ -30,7 +30,7 @@
 .name h1 {
   font-family: "Ubuntu", sans-serif;
   margin: 10px 0;
-  border-bottom: 3px solid #2c698d;
+  border-bottom: 3px solid #d4a86c;
   font-family: "Bitter", serif;
   font-style: italic;
   /* text-transform: lowercase;*/
@@ -51,11 +51,11 @@
 
 .headings {
   display: flex;
-  border-bottom: 4px solid #2c698d;
+  border-bottom: 4px solid #d4a86c;
 }
 
 .headings h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "lato", serif;
   font-style: italic;
   margin: 10px 0;
 }
@@ -91,7 +91,7 @@
     font-size: 22px;
     font-family: "Ubuntu", sans-serif;
     margin: 10px 0;
-    border-bottom: 6px double #2c698d;
+    border-bottom: 6px double #d4a86c;
     padding-bottom: 20px;
   }
   .name h1 sub {
@@ -127,7 +127,7 @@
     font-size: 15px;
     font-family: "Ubuntu", sans-serif;
     margin: 10px 0;
-    border-bottom: 6px double #2c698d;
+    border-bottom: 6px double #d4a86c;
     padding-bottom: 20px;
   }
   .name h1 sub {

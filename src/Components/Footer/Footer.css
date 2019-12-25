@@ -4,10 +4,19 @@ footer {
   align-items: center;
   justify-content: center;
   color: rgb(160, 160, 160);
+  flex-direction: column;
 }
+
 footer p span {
   color: white;
-  font-family: "Vidaloka", serif;
+  font-family: "lato", serif;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.social_icons img {
+  height: 25px;
+  margin: 0px 8px;
 }
 
 @media (max-width: 660px) {

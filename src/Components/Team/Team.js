@@ -19,7 +19,7 @@ const Team = () => {
     <StyleRoot>
       <TeamHeader />
       <main>
-        <h2>PARTNER</h2>
+        <h2>PARTNERS</h2>
 
         <Link to="/SeemaAbidi" className="navStyle">
           <Members

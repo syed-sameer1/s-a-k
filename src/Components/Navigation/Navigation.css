@@ -41,7 +41,7 @@
   display: block;
   position: relative;
   text-decoration: none;
-  padding: 5px;
+  margin: 5px;
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
@@ -50,7 +50,9 @@
 }
 
 .nav-bar nav ul li span:hover {
+  /* font-weight: 600;   */
   transform: scale(1.5);
+  border-bottom: 2px solid #d4a86c;
 }
 
 .ham-burger img {

@@ -23,7 +23,7 @@
   margin: 10px;
   outline: none;
   border: none;
-  border-bottom: 4px solid #00a2ff;
+  border-bottom: 4px solid #8b6329;
   background-color: whitesmoke;
   padding-left: 15px;
   font-size: 20px;
@@ -52,11 +52,11 @@
   border-radius: 50px;
   outline: none;
   cursor: pointer;
-  background: #00a2ff;
+  background: #8b6329;
 }
 
 .form .submit:hover {
-  background: rgb(4, 120, 252);
+  background: green;
 }
 
 @media (max-width: 768px) {

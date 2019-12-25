@@ -13,7 +13,7 @@ const Adress = props => {
         <span>Tel: </span>021-35640577
       </p>
       <p className="email">
-        <span>E-mail: </span>ask.advocates@outlook.com
+        <span>E-mail: </span>sak.associates@outlook.com
       </p>
     </div>
   );

@@ -10,7 +10,7 @@
 }
 
 .MembersDetail h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'lato', serif;
   font-style: italic;
   font-weight: 500;
   margin-bottom: 10px;
@@ -55,7 +55,7 @@
 }
 
 .readMore i {
-  color: #2c698d;
+  color: #d4a86c;
 }
 
 .MembersDetail:hover .readMore {

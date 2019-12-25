@@ -1,14 +1,21 @@
+.each-slide {
+    margin-top: 90px;
+}
+
 .slider1 {
-    background: url('../../../asseset/images/about-background.jpg');
+    background-position: center;
     height: 100vh;
+    width: 100%;
 }
 
 .slider2 {
-    background: url('../../../asseset/images/team-background.jpg');
     height: 100vh;
+    background-position: center;
+    width: 100%;
 }
 
 .slider3 {
-    background: url('../../../asseset/images/contact-background.jpg');
     height: 100vh;
+    background-position: center;
+    width: 100%;
 }
