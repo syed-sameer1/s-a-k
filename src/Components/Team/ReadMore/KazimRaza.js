@@ -7,7 +7,7 @@ const KazimRaza = () => {
     <div className="MainDetail">
       <div className="name">
         <h1>
-          MR. KAZIM RAZA ABIDI <sub>(B.A., LLB, LLM)</sub>
+          MR. KAZIM RAZA ABIDI <sub>(Advocate High Court)</sub>
         </h1>
         <img src={KazimRazaa} alt="MemberImage" />
       </div>

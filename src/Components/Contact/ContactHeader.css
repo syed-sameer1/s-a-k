@@ -1,11 +1,17 @@
-.Cheader {
-  background: url(../../asseset/images/contact-background.jpg);
+.contact-header {
+  margin-top: 80px;
   height: 90vh;
   background-attachment: fixed;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.contact-header img {
+  height: 100%;
+  width: 100%;
 }
 
 .Cheading {
@@ -14,7 +20,7 @@
   justify-content: center;
   width: 100%;
   color: white;
-  font-family: "lato", serif;
+  font-family: 'Inria Serif', serif;
   font-style: italic;
   font-size: 50px;
   background-color: rgba(0, 0, 0, 0.678);
@@ -25,5 +31,9 @@
 @media (max-width: 600px) {
   .Cheading {
     font-size: 30px;
+  }
+  .contact-header img {
+    height: 60%;
+    width: 100%;
   }
 }

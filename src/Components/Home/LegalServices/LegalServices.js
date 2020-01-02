@@ -1,10 +1,10 @@
 import React from "react";
 import "./LegalServices.css";
 import ServicesCard from "./ServicesCard/ServicesCard";
-import bookIcon from "../.././../asseset/images/book.png";
-import webIcon from "../.././../asseset/images/language.png";
-import gavelIcon from "../.././../asseset/images/gavel.png";
-import courtIcon from "../.././../asseset/images/court.png";
+import bookIcon from "../../../asseset/images/book.png";
+import webIcon from "../../../asseset/images/language.png";
+import gavelIcon from "../../../asseset/images/gavel.png";
+import courtIcon from "../../../asseset/images/court.png";
 
 const LegelServices = () => {
   return (
@@ -20,7 +20,7 @@ const LegelServices = () => {
           details="Let's say you end up getting accused of a crime, which you did not commit. However, now you are facing the fact that you need some sort of legal representation to assist you in court. Since court proceedings, legal terminology, and legal processes can be extremely confusing, it is important for you to have a lawyer or attorney to help navigate this process for you. This is what legal representation is. Essentially, legal representation refers to the whole process from start to finish in a lawyer fighting for you in court"
         />
         <ServicesCard
-          ServiceName="Legal Advise"
+          ServiceName="Legal Advice"
           ServiceDetail="To get an opinion or research for a legal query, you can use this service. Your legal
           opinion will be prepared within a period of 2-3 working days. Please note that free legal consultation will
           not create any client and counsel relationship."
@@ -31,7 +31,7 @@ const LegelServices = () => {
           or for conducting legal research on your behalf, we shall charge you accordingly."
         />
         <ServicesCard
-          ServiceName="Legal Notices & Agreements"
+          ServiceName="Legal Notice & Agreements"
           ServiceDetail="We can assist you in drafting deeds and
           agreements pertaining to your needs. We are further able to help you with the registration of documents
           and their formalities."

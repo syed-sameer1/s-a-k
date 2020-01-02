@@ -37,7 +37,7 @@ export default class ServicesCard extends Component {
         <Modal
           visible={this.state.visible}
           width="600"
-          height="400"
+          height="500"
           effect="fadeInUp"
           onClickAway={() => this.closeModal()}
         >

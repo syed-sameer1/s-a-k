@@ -11,18 +11,23 @@ const Menu = () => {
           </Link>
         </li>
         <li>
-          <Link className="mobile-menu" to="/about">
-            <span>about</span>
-          </Link>
-        </li>
-        <li>
           <Link className="mobile-menu" to="/expertise">
             <span>expertise</span>
           </Link>
         </li>
         <li>
+          <Link className="mobile-menu" to="/partners">
+            <span>Partners</span>
+          </Link>
+        </li>
+        <li>
           <Link className="mobile-menu" to="/team">
-            <span>team</span>
+            <span>Team</span>
+          </Link>
+        </li>
+        <li>
+          <Link className="mobile-menu" to="/team">
+            <span>Clients</span>
           </Link>
         </li>
         <li>

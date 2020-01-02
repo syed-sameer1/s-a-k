@@ -1,15 +1,15 @@
 import React from "react";
 import "./ReadMore.css";
-import img from "../../../asseset/images/memebr.jpg";
+import aliAbbas from "../../../asseset/images/Team-images/aliAbbas.jpeg";
 
 const AliAbbas = () => {
   return (
     <div className="MainDetail">
       <div className="name">
         <h1>
-          MR. S. ALI ABBAS ABIDI <sub>(L.LM., MBA)</sub>
+          MR. S. ALI ABBAS ABIDI <sub>(Advocate High Court)</sub>
         </h1>
-        <img src={img} alt="MemberImage" />
+        <img src={aliAbbas} alt="MemberImage" />
       </div>
       <div className="headings">
         <h3>HIS AREAS OF INTEREST INCLUDE THE FOLLOWING</h3>

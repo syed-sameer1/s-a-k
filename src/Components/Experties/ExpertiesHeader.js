@@ -1,11 +1,11 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
-import "./TeamHeader.css";
-import slider_3 from "../../asseset/images/slider_3.jpg";
-const TeamHeader = props => {
+import "../Team/TeamHeader.css";
+import slider_2 from "../../asseset/images/slider_2.png";
+const ExpertiesHeader = props => {
   return (
     <header className="team_header">
-      <img src={slider_3} alt="slider_image" />
+      <img src={slider_2} alt="slider_image" />
       <div className="heading">
         <span>{props.team}</span>
       </div>
@@ -13,4 +13,4 @@ const TeamHeader = props => {
   );
 };
 
-export default TeamHeader;
+export default ExpertiesHeader;

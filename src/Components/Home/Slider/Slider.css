@@ -4,18 +4,36 @@
 
 .slider1 {
     background-position: center;
-    height: 100vh;
+    height: 85vh;
     width: 100%;
 }
 
 .slider2 {
-    height: 100vh;
+    height: 85vh;
     background-position: center;
     width: 100%;
 }
 
 .slider3 {
-    height: 100vh;
+    height: 85vh;
     background-position: center;
     width: 100%;
+}
+
+@media (max-width: 600px) {
+    .slider1 {
+        background-position: center;
+        height: 60vh;
+        width: 100%;
+    }
+    .slider2 {
+        height: 60vh;
+        background-position: center;
+        width: 100%;
+    }
+    .slider3 {
+        height: 60vh;
+        background-position: center;
+        width: 100%;
+    }
 }

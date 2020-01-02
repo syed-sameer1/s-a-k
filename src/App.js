@@ -13,6 +13,8 @@ import KazimRaza from "./Components/Team/ReadMore/KazimRaza";
 import HassanAbidi from "./Components/Team/ReadMore/HassanAbidi";
 import MohsinKhan from "./Components/Team/ReadMore/MohsinKhan";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import RealTeam from "./Components/Team/RealTeam";
+import Experties from "./Components/Experties/Experties";
 
 function App() {
   return (
@@ -21,9 +23,11 @@ function App() {
         <Navigation />
         <Switch>
           <Route path="/about" component={About} />
-          <Route path="/team" component={Team} />
+          <Route path="/partners" component={Team} />
+          <Route path="/team" component={RealTeam} />
           <Route path="/contact" component={Contact} />
           <Route path="/" exact component={Home} />
+          <Route path="/expertise" component={Experties} />
           <Route path="/SeemaAbidi" component={SeemaAbidi} />
           <Route path="/AliAbbas" component={AliAbbas} />
           <Route path="/KazimRaza" component={KazimRaza} />

@@ -8,9 +8,10 @@ footer {
 }
 
 footer p span {
-  color: white;
-  font-family: "lato", serif;
-  font-style: italic;
+  /* color: white; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  /* font-style: italic; */
   text-transform: capitalize;
 }
 

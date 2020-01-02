@@ -23,7 +23,7 @@ const Navigation = () => {
             </Link>
           </li>
           <li>
-            <Link to="/team" className="navStyle">
+            <Link to="/partners" className="navStyle">
               <span>Partners</span>
             </Link>
           </li>

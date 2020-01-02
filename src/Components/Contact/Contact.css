@@ -27,13 +27,13 @@
   background-color: whitesmoke;
   padding-left: 15px;
   font-size: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inria Serif', serif;
   font-style: italic;
 }
 
 .form input::placeholder {
   font-size: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inria Serif', serif;
   font-style: italic;
 }
 
@@ -45,7 +45,7 @@
   margin: 10px;
   padding: 10px 30px;
   font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inria Serif', serif;
   font-weight: bold;
   color: rgb(245, 245, 245);
   border: none;

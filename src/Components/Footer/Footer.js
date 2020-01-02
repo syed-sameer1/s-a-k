@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        2019 © All rights reserved by{" "}
-        <span>seema, abidi, khan & associative</span>
+        2020 © All rights reserved by{" "}
+        <span>seema | abidi | khan & associates</span>
       </p>
       <div className="social_icons">
         <img src={facebook} alt="icons" />

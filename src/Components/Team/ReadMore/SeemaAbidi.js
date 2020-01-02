@@ -1,15 +1,15 @@
 import React from "react";
 import "./ReadMore.css";
-import img from "../../../asseset/images/memebr.jpg";
+import seema from "../../../asseset/images/Team-images/seema.jpeg";
 
 const SeemaAbidi = () => {
   return (
     <div className="MainDetail">
       <div className="name">
         <h1>
-          MRS. SEEMA WASIM ADVOCATE <sub>(B.A., LLB)</sub>
+          MRS. SEEMA WASIM ADVOCATE <sub>(Advocate High Court)</sub>
         </h1>
-        <img src={img} alt="MemberImage" />
+        <img src={seema} alt="MemberImage" />
       </div>
       <div className="fullDetail">
         <p>

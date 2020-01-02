@@ -1,9 +1,9 @@
 import React from "react";
 import "./Slider.css";
 import { Slide } from "react-slideshow-image";
-import slider_1 from "../../../asseset/images/about-background.jpg";
-import slider_2 from "../../../asseset/images/1.jpg";
-import slider_3 from "../../../asseset/images/contact-background.jpg";
+import slider_1 from "../../../asseset/images/slider_1.gif";
+import slider_2 from "../../../asseset/images/slider_2.png";
+import slider_3 from "../../../asseset/images/slider_3.jpg";
 
 const properties = {
   duration: 3000,
