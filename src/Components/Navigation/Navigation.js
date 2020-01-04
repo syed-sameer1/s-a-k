@@ -33,7 +33,7 @@ const Navigation = () => {
             </Link>
           </li>
           <li>
-            <Link to="/team" className="navStyle">
+            <Link to="/clients" className="navStyle">
               <span>Clients</span>
             </Link>
           </li>

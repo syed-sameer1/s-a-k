@@ -1,0 +1,29 @@
+.other_clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other_clients h2 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Inria Serif', serif;
+    font-style: italic;
+    padding: 15px 0;
+    border-bottom: 3px solid #d4a86c;
+}
+
+.clients_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 695px) {
+    .clients_list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}

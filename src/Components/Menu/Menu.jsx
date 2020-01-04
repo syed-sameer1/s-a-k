@@ -26,7 +26,7 @@ const Menu = () => {
           </Link>
         </li>
         <li>
-          <Link className="mobile-menu" to="/team">
+          <Link className="mobile-menu" to="/clients">
             <span>Clients</span>
           </Link>
         </li>

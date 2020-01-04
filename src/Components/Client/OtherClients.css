@@ -1,0 +1,48 @@
+.client_div {
+    display: flex;
+    align-items: center;
+}
+
+.client_div i {
+    color: #d4a86c;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+.client_div:hover i {
+    color: #d4a86c;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+
+.client_div img {
+    height: 70px;
+    /* width: 70px; */
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+    transition: 0.7s;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.client_div img:hover {
+    filter: grayscale(0%);
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.client_div h1 {
+    font-family: "Inria Serif";
+    font-size: 20px;
+    padding: 1px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 695px) {
+    .client_div h1 {
+        font-size: 18px;
+    }
+}

@@ -15,12 +15,14 @@ import MohsinKhan from "./Components/Team/ReadMore/MohsinKhan";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import RealTeam from "./Components/Team/RealTeam";
 import Experties from "./Components/Experties/Experties";
+import Clients from "./Components/Client/Clients";
 
 function App() {
   return (
     <>
       <Router>
         <Navigation />
+
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/partners" component={Team} />
@@ -31,8 +33,9 @@ function App() {
           <Route path="/SeemaAbidi" component={SeemaAbidi} />
           <Route path="/AliAbbas" component={AliAbbas} />
           <Route path="/KazimRaza" component={KazimRaza} />
-          <Route path="/HassanAbidi" exact component={HassanAbidi} />
-          <Route path="/MohsinKhan" exact component={MohsinKhan} />
+          <Route path="/HassanAbidi" component={HassanAbidi} />
+          <Route path="/MohsinKhan" component={MohsinKhan} />
+          <Route path="/clients" component={Clients} />
           <Route path="/menu" component={Menu} />
         </Switch>
       </Router>
