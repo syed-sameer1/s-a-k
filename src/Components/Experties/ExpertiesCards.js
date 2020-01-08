@@ -63,6 +63,36 @@ const ExpertiesCards = () => {
           icon={bookIcon}
           details="The law firm of SAK offers comprehensive services in this regard since most of its practice leans in this field of law. Be it trade mark registrations, patent applications, copyrights infringement or franchising, advocates at SAK serves its clients at every stage of the process including litigation for infringement of IP Laws so as to ensure that its clients get the best of what they want for the smooth running of their operations. With regards to IP Law, SAK has not only worked for local or national companies but have also provided its world class services to multi-national corporations thereby making their work easier for them."
         />
+        <ServicesCard
+          ServiceName="Criminal Law"
+          ServiceDetail="Peace and tranquility are extremely crucial in order to avoid vengeance and chaos in a society; this aspect of living has, in turn, allowed for a body of law namely Criminal Law to be formed, a body of law worthy of separate attention."
+          icon={gavelIcon}
+          details="Peace and tranquility are extremely crucial in order to avoid vengeance and chaos in a society; this aspect of living has, in turn, allowed for a body of law namely Criminal Law to be formed, a body of law worthy of separate attention. Today, the field of Criminal has become one of the most significant and most extreme fields of practices in law covering all those aspects that entail crime and criminal offences as its factors. This field of law not only proscribes the conduct which is considered as threatening and endangering to human or property."
+        />
+        <ServicesCard
+          ServiceName="Employment, Labor and Service Laws"
+          ServiceDetail="These laws contain a thorough and authentic guide in form of several Ordinances, Acts, Rules & Regulations for the concerned agencies to realize their respective roles and responsibilities and to become aware of their prescribed legal rights to be asserted."
+          icon={gavelIcon}
+          details="Employment, Labor and Service Laws are few of the most important, well versed and comprehensive laws in a legal system. They not only govern the relationship between employer employees, workers or laborers but also set out a basic guideline that allows people in different roles or position such as employer, labor, employee, etc. to work, hire, terminate or regulate accordingly. This broad field of law also deals with resolving issues or disputes such as wrongful termination, etc. "
+        />
+        <ServicesCard
+          ServiceName="Custom Law"
+          ServiceDetail="Field of Custom Law comes into play when imports and exports of goods are involved. Although the field is more fiscal related in nature, still it is seen as one of the prominent and growing fields over the span of time."
+          icon={gavelIcon}
+          details="Field of Custom Law comes into play when imports and exports of goods are involved. Although the field is more fiscal related in nature, still it is seen as one of the prominent and growing fields over the span of time. Custom duty in Pakistan is based on International Harmonized System and is levied on ad-valorem basis meaning thereby that it is estimated in proportion to the value of the goods and transaction concerned."
+        />
+        <ServicesCard
+          ServiceName="Rent Law"
+          ServiceDetail="Issues relating to fixation of fair rent, ejectment proceedings, rights duties of landlord and tenants, etc. comes within the ambit of Rent Law. The governing law of rent related disputes between landlords and tenants in Sindh is Sindh Rented Premises Ordinance, 1979."
+          icon={gavelIcon}
+          details="Advocates at SAK started their law firm by providing services in rent matters, including but not limited to, drafting rent agreements, fixation of fair rent, filing and defending ejectment proceedings, discontinuance of amenities and services, deposit of rent in Courts, etc. Today, the firm has dealt with more than 100 rent cases both by resolving the issues amicably or contesting the litigation before Courts. Moreover, our team is even highly capable of contesting these litigations before Rent Controllers."
+        />
+        <ServicesCard
+          ServiceName="Consumer Protection Law"
+          ServiceDetail="Whenever a person buys a product, which then turns out to be defective, the said person has ample of rights under the legal system of Pakistan, which not only protects that person from suffering loss from such events but also compensates him/her for the loss suffered by him/her."
+          icon={gavelIcon}
+          details="The law of Consumer Protection came into being in Pakistan when the Federal Government passed Islamabad Consumer Protection Laws in 1995, soon afterwards, the Provincial Government, following in the footsteps of the Federal Government, passed their own Consumer Protection Laws thereby ensuring a prosperous and a thriving society wherein consumers feel secured and safe from unfair trade practices and fraudulent acts of corporations."
+        />
       </div>
     </div>
   );

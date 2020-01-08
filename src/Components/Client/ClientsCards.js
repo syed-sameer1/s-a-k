@@ -9,11 +9,18 @@ import faysal_bank from "../../asseset/images/clients_images/faysal-bank-logo.pn
 import JS_bank from "../../asseset/images/clients_images/JS_bank.png";
 import summit_bank from "../../asseset/images/clients_images/Summit-Bank.png";
 import sindh from "../../asseset/images/clients_images/sindh.png";
+import kcci from "../../asseset/images/clients_images/KCCI.jpg";
+import rizvia from "../../asseset/images/clients_images/rivzvia-society.png";
+import educators from "../../asseset/images/clients_images/the-educators-logo.png";
+import qatar from "../../asseset/images/clients_images/pak-qatar.jpg";
+import mauharam from "../../asseset/images/clients_images/pak-mauharam.jpeg";
+import ke from "../../asseset/images/clients_images/ke_logo.png";
+import noor from "../../asseset/images/clients_images/al-noor.png";
 
 const ClientsCards = () => {
   return (
     <div className="LegalServices">
-      <h2>Areas Of Experties</h2>
+      <h2>Valuable Clients</h2>
       <div className="ServicesCards">
         <ServicesCard
           ServiceName="National Bank of Pakistan"
@@ -64,6 +71,50 @@ const ClientsCards = () => {
           ServiceDetail="In order to promote industrialization and create attractive conditions for industrialists, Government of Sindh established Sindh Industrial Trading Estates, in the year 1947. The object was to establish planned industrial areas where industrialists."
           icon={sindh}
           details="In order to promote industrialization and create attractive conditions for industrialists, Government of Sindh established Sindh Industrial Trading Estates, in the year 1947. The object was to establish planned industrial areas where industrialists, in the future, could have all their required and needed facilities such as land, road, railway, water supply, electricity, gas, telephone, godowns (warehouses), sanitation, drainage, residential areas for workers and other necessary public amenities."
+        />
+        <ServicesCard
+          ServiceName="The Karachi Chamber of Commerce and Industry"
+          ServiceDetail="They aim to improve Pakistan's business environment and economic well-being, especially in Karachi. They seek to provide advocacy and opportunity to their thousands of members. KCCI issues statements to the news media, making recommendations and expressing its views over current economic and financial issues in Karachi and Pakistan"
+          icon={kcci}
+          details="They aim to improve Pakistan's business environment and economic well-being, especially in Karachi. They seek to provide advocacy and opportunity to their thousands of members. KCCI issues statements to the news media, making recommendations and expressing its views over current economic and financial issues in Karachi and Pakistan"
+        />
+        <ServicesCard
+          ServiceName="Rizvia Cooperative Housing Society"
+          ServiceDetail="Rizvia Society is one of the neighbourhoods of Liaquatabad Town in Karachi, Sindh, Pakistan.[1] This neighbourhood is predominantly populated by Shiite Muslims.The majority of population migrated after independence from areas of Awadh, especially Lucknow, state in UP."
+          icon={rizvia}
+          details="Rizvia Society is one of the neighbourhoods of Liaquatabad Town in Karachi, Sindh, Pakistan. This neighbourhood is predominantly populated by Shiite Muslims.
+          After the independence of Pakistan in 1947, Rizvia Colony was made by a school teacher of Sindh Madressah, Maulana Aneesul Hasnain, along with Advocate Qazalbash in 1948. Their concept was to provide plots exclusively to Shias, and not to people of other sects.
+          The majority of population migrated after independence from areas of Awadh, especially Lucknow, state in UP."
+        />
+        <ServicesCard
+          ServiceName="The Educators"
+          ServiceDetail="The Educators. Established in 2002 in Pakistan, The Educators is a parallel private school network owned and operated by Beaconhouse that aims to impart a standardized quality of education across the nation at a tuition fee that is a fraction of the fee charged at Beaconhouse."
+          icon={educators}
+          details="The Educators. Established in 2002 in Pakistan, The Educators is a parallel private school network owned and operated by Beaconhouse that aims to impart a standardized quality of education across the nation at a tuition fee that is a fraction of the fee charged at Beaconhouse."
+        />
+        <ServicesCard
+          ServiceName="Pak-Qatar Family Takaful Ltd"
+          ServiceDetail="Pak-Qatar Family Takaful Ltd. ... Its International Takaful network includes offices in Karachi, Dubai, Kuala Lumpur and Luxembourg. Saving & Takaful Plan is a Shari'ah-compliant alternative to conventional insurance, offering a unique combination of saving, investment and protection.."
+          icon={qatar}
+          details="Pak-Qatar Family Takaful Ltd. ... Its International Takaful network includes offices in Karachi, Dubai, Kuala Lumpur and Luxembourg. Saving & Takaful Plan is a Shari'ah-compliant alternative to conventional insurance, offering a unique combination of saving, investment and protection.."
+        />
+        <ServicesCard
+          ServiceName="K-Electric"
+          ServiceDetail="K-Electric is a vertically integrated investor-owned utility managing all three key stages – generation, transmission and distribution – of producing and delivering energy to consumers. KE is a Pakistani electric supply company, based in Karachi, Sindh, Pakistan."
+          icon={ke}
+          details="K-Electric is a vertically integrated investor-owned utility managing all three key stages – generation, transmission and distribution – of producing and delivering energy to consumers. KE is a Pakistani electric supply company, based in Karachi, Sindh, Pakistan."
+        />
+        <ServicesCard
+          ServiceName="Al-Noor Sugar Mills"
+          ServiceDetail="Al-Noor Sugar Mills Limited was incorporated in Pakistan on August 08, 1969 as a public limited company under the Companies Act, 1913 (now Companies Act 2017). ... The principal activities of the Company are manufacturing sugar, medium density fiber (MDF) board, power generation and its sale."
+          icon={noor}
+          details="Al-Noor Sugar Mills Limited was incorporated in Pakistan on August 08, 1969 as a public limited company under the Companies Act, 1913 (now Companies Act 2017). ... The principal activities of the Company are manufacturing sugar, medium density fiber (MDF) board, power generation and its sale."
+        />
+        <ServicesCard
+          ServiceName="Pak Moharram Association"
+          ServiceDetail="The Pak Moharram Association was formed in 1948. The then commissioner of Karachi, A.T. Naqvi, issued to them the licence for the mourning procession. ... From Jehangir Park, the procession would move via Saddar, Radio Pakistan, Lighthouse, etc., eventually culminating at Hussainian Iranian."
+          icon={mauharam}
+          details="The Pak Moharram Association was formed in 1948. The then commissioner of Karachi, A.T. Naqvi, issued to them the licence for the mourning procession. ... From Jehangir Park, the procession would move via Saddar, Radio Pakistan, Lighthouse, etc., eventually culminating at Hussainian Iranian."
         />
       </div>
     </div>

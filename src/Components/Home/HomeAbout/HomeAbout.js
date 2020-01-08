@@ -1,5 +1,5 @@
 import React from "react";
-import HassanRazaWork from "../../../asseset/images/team.jpeg";
+import HassanRazaWork from "../../../asseset/images/court.jpg";
 import "./HomeAbout.css";
 
 const HomeAbout = () => {

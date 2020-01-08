@@ -7,7 +7,7 @@ const AliAbbas = () => {
     <div className="MainDetail">
       <div className="name">
         <h1>
-          MR. S. ALI ABBAS ABIDI <sub>(Advocate High Court)</sub>
+          MR. S. ALI ABBAS ABIDI <sub>(Adv High Court)</sub>
         </h1>
         <img src={aliAbbas} alt="MemberImage" />
       </div>

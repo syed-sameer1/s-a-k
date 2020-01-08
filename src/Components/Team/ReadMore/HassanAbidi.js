@@ -9,7 +9,7 @@ const HassanAbidi = () => {
     <div className="MainDetail">
       <div className="name">
         <h1>
-          S. HASSAN M. ABIDI <sub>(Advocate High Court)</sub>
+          S. HASSAN M. ABIDI <sub>(Adv High Court)</sub>
         </h1>
         <img src={HassanAbidii} alt="MemberImage" />
       </div>
