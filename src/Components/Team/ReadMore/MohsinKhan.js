@@ -16,7 +16,7 @@ const MohsinKhan = () => {
         <img src={MohsinKhann} alt="MemberImage" />
       </div>
       <div className="fullDetail">
-        <p style={{ textAlign: "center" }}>
+        <p>
           Mr. Mohsen Khan is an energetic young gun, yet possesses every
           attribute a veteran counsel would hold. Mr. Khan did his bachelors in
           the year 2013 from Hamdard School of Law, Karachi, followed by masters
@@ -29,7 +29,7 @@ const MohsinKhan = () => {
           meticulously dealing in civil, criminal, tax, rent, banking,
           matrimonial, child custody, testamentary and intestate matters.
         </p>
-        <p style={{ textAlign: "center" }}>
+        <p>
           In the year 2016, Mr. Khan joined Hafeez Pirzada Law Associates as a
           Senior Associate; during his stay at HPLA, he looked after the entire
           work of District Courts and Tribunals besides doing his independent

@@ -18,7 +18,7 @@ const HassanAbidi = () => {
         <img src={HassanAbidii} alt="MemberImage" />
       </div>
       <div className="fullDetail">
-        <p style={{ textAlign: "center" }}>
+        <p>
           Mr. S. Hassan M. Abidi is a bewitching stripling counsel, who opened
           his eyes in the lap of law and was raised in the arms of a seasoned
           lawyer Mr. Kazim Raza Abidi; at the very early age, junior Abidi
@@ -32,7 +32,7 @@ const HassanAbidi = () => {
           Corporation, Karachi Chamber of Commerce and Industry, Pakistan
           National Shipping Corporation and University of Karachi
         </p>
-        <p style={{ textAlign: "center" }}>
+        <p>
           In mid of 2018, Mr. Abidi joined Hafeez Pirzada Law Associates as a
           Senior Associate, where he proficiently represented Karachi Water &
           Sewerage Board and Karachi Metropolitan Corporation before honorable

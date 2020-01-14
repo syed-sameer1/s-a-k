@@ -67,7 +67,7 @@ const ClientsCards = () => {
           details="GRADSY IS AFFILIATED WITH FEDERAL UNIVERSITY OF PAKISTAN & INSTITUTE OF CHARTERED ACCOUNTANTS OF PAKISTAN (ICAP)."
         />
         <ServicesCard
-          ServiceName="Sindh Industrial and Trading"
+          ServiceName="Sindh Industrial and Trading State"
           ServiceDetail="In order to promote industrialization and create attractive conditions for industrialists, Government of Sindh established Sindh Industrial Trading Estates, in the year 1947. The object was to establish planned industrial areas where industrialists."
           icon={sindh}
           details="In order to promote industrialization and create attractive conditions for industrialists, Government of Sindh established Sindh Industrial Trading Estates, in the year 1947. The object was to establish planned industrial areas where industrialists, in the future, could have all their required and needed facilities such as land, road, railway, water supply, electricity, gas, telephone, godowns (warehouses), sanitation, drainage, residential areas for workers and other necessary public amenities."

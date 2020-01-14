@@ -16,7 +16,7 @@ const KazimRaza = () => {
         <img src={KazimRazaa} alt="MemberImage" />
       </div>
       <div className="fullDetail">
-        <p style={{ textAlign: "center" }}>
+        <p>
           Mr. Kazim Raza Abidi started his career, predominantly working on rent
           laws in late 80’s and enjoyed the right of audience up to honorable
           Supreme Court of Pakistan; with his endless efforts, he decorated his
@@ -33,7 +33,7 @@ const KazimRaza = () => {
           the witness box. Mr. Abidi specializes in civil, criminal, rent,
           constitution, family, banking and service laws.
         </p>
-        <p style={{ textAlign: "center" }}>
+        <p>
           Mr. Abidi joined the chambers of SAK & Associates as a partner in
           2019; the idea behind the joint venture was to utilize the expertise
           of each partner and work together as a team to bestow relief to the

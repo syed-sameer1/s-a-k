@@ -16,7 +16,7 @@ const SeemaAbidi = () => {
         <img src={seema} alt="MemberImage" />
       </div>
       <div className="fullDetail">
-        <p style={{ textAlign: "center" }}>
+        <p>
           Mrs. Seema Wasim started her practice as an advocate way back in the
           early 80’s; after having acquired extensive knowledge and experience
           over the years, across all spheres of law by practically passing
@@ -32,7 +32,7 @@ const SeemaAbidi = () => {
           successfully, but has established her own firm, under the name of
           Seema Wasim & Co., at the very early age.
         </p>
-        <p style={{ textAlign: "center" }}>
+        <p>
           Mrs. Wasim, apart from providing legal services to banking institutes,
           has also been providing them with services to their Credit
           Administration Department (CAD) for compliance of legal formalities to
