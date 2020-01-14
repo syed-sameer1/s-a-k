@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Menu.css";
 import { Link } from "react-router-dom";
 const Menu = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
+
   return (
     <div className="Menu">
       <ul>

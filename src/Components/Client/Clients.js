@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ClientsHeader from "./ClientsHeader";
 import ClientsCards from "./ClientsCards";
 import OtherClients from "./OtherClients";
@@ -6,6 +6,10 @@ import OtherClients from "./OtherClients";
 import "./Clients.css";
 
 const Clients = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
+
   return (
     <div>
       <ClientsHeader team="Clients" />

@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ReadMore.css";
 import MohsinKhann from "../../../asseset/images/Team-images/MohsinKhan.jpg";
 
 const MohsinKhan = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
+
   return (
     <div className="MainDetail">
       <div className="name">

@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ReadMore.css";
 import aliAbbas from "../../../asseset/images/Team-images/aliAbbas.jpeg";
 
 const AliAbbas = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
+
   return (
     <div className="MainDetail">
       <div className="name">

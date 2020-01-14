@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import Slider from "./Slider/Slider";
 import HomeAbout from "./HomeAbout/HomeAbout";
 import LegalServices from "./LegalServices/LegalServices";
-import TeamSection from "./TeamSection/TeamSection";
 
 const Home = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
+
   return (
     <>
       <Slider />
       <HomeAbout />
       <LegalServices />
-      {/* <TeamSection /> */}
     </>
   );
 };

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import "./Team.css";
 import Radium, { StyleRoot } from "radium";
 import TeamHeader from "./TeamHeader";
@@ -13,6 +14,11 @@ const RealTeam = () => {
       flexDirection: "column"
     }
   };
+
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
+
   return (
     <StyleRoot>
       <TeamHeader team="Team" />

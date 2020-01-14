@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ContactHeader from "./ContactHeader";
 import "./Contact.css";
 import Address from "./Address";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  });
+
   return (
     <>
       <ContactHeader />

@@ -24,7 +24,6 @@ function App() {
         <Navigation />
 
         <Switch>
-          <Route path="/about" component={About} />
           <Route path="/partners" component={Team} />
           <Route path="/team" component={RealTeam} />
           <Route path="/contact" component={Contact} />
