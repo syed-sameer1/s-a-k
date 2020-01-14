@@ -18,26 +18,32 @@ const HassanAbidi = () => {
         <img src={HassanAbidii} alt="MemberImage" />
       </div>
       <div className="fullDetail">
-        <p>
-          Counsel having experience of more than 5 years’ in different areas of
-          law; started his career as an associate of Mr. Khalid Javed (former
-          President, High Court Bar Association) where he undertook the entire
-          work of the firm within a period of six months; during his stay, he
-          looked after the cases of Pakistan International Airlines Corporation,
-          Pakistan National Shipping Corporation, Karachi Chamber of Commerce &
-          Industry, Karachi Port Trust, University of Karachi, etc.; thereafter,
-          he joined Abidi Law Associate as a partner and has been looking after
-          the cases of almost every nature including, but not limited to, civil,
-          criminal, constitution, service, banking, banking offences, NAB, CNS,
-          rent, etc; besides being partner of Abidi Law Associates, he joined
-          Hafeez Pirzada Law Associates as a Senior Associate in the year 2018
-          and undertook the entire work to the complete satisfaction of the
-          partner; has been looking after the cases of Karachi Metropolitan
-          Corporation and Karachi Water & Sewerage Board since more than a year
-          and provided the relief to the departments in the best possible way.
-          Now Abidi Law Associates & Seema Wasim Law Associates have entered
-          into joint venture under the name of ASK – Advocate & Legal
-          Consultants.
+        <p style={{ textAlign: "center" }}>
+          Mr. S. Hassan M. Abidi is a bewitching stripling counsel, who opened
+          his eyes in the lap of law and was raised in the arms of a seasoned
+          lawyer Mr. Kazim Raza Abidi; at the very early age, junior Abidi
+          joined the chambers of Abidi Law Associates and undertook research and
+          drafting for his father, whose constant guidance and supervision
+          developed his legal acumen and capability of construing the law in its
+          essence. Mr. Abidi completed his bachelors in commerce in the year
+          2010, followed by bachelors in Law at Sindh Muslim Law College,
+          Karachi; at the dawn of his career, he joined Khalid Javed & Co. and
+          had an opportunity to represent Pakistan International Airlines
+          Corporation, Karachi Chamber of Commerce and Industry, Pakistan
+          National Shipping Corporation and University of Karachi
+        </p>
+        <p style={{ textAlign: "center" }}>
+          In mid of 2018, Mr. Abidi joined Hafeez Pirzada Law Associates as a
+          Senior Associate, where he proficiently represented Karachi Water &
+          Sewerage Board and Karachi Metropolitan Corporation before honorable
+          High Court; he has undertaken some high-profile cases very smartly and
+          has been tremendously successful in maintaining bond with the bench,
+          which is an articulate account of his competence. Soon he joined Seema
+          Wasim Law Associates, changing its name to Seema, Abidi, Khan &
+          Associates, and became a name partner of a law firm at a very young
+          age. Mr. Abidi is widely reckoned as one of the prominent faces in the
+          legal fraternity. He is a fervent and impassioned supporter of cricket
+          and an active member of Sindh High Court Bar Association XI.
         </p>
       </div>
       <div className="headings">

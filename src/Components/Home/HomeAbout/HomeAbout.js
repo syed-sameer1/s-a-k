@@ -11,27 +11,24 @@ const HomeAbout = () => {
       <div className="para">
         <h2>SEEMA, ABIDI, KHAN & ASSOCIATES</h2>
         <p>
-          SEEMA, ABIDI, KHAN & ASSOCIATES is a leading Pakistan-based law firm
-          working as a progressive and dynamic full service firm with help of a
-          talent pool of some of the best Pakistani lawyers. The firm has its
-          law chamber at Karachi and we provide seamless legal services.
-          Beginning with a very modest setting, SAK has grown, over the years,
-          both in size and reputation and has become a benchmark of quality
-          amongst professional law firms in Pakistan providing legal services,
-          in its core practice areas, throughout the country.
+          People choose a law firm that stands out, a firm they can trust and a
+          firm that offers unquestionable commitment. Seema, Abidi, Khan &
+          Associates is one of the eminent law firms of the country, who not
+          only offers unmatched services and immaculate professionalism, but
+          also value for its clients. Through practical and innovative thinking,
+          SAK strives to do its best to become one of the finest litigation
+          firms this country has to offer by delivering quality and valuable
+          services.
         </p>
         <p>
-          We are a well established law firm in Pakistan which is popular and
-          still growing in reputation both in the legal echelon as well as among
-          a wide range of clients which include national and multinational
-          organizations, banks, corporations, institutions and individuals. We
-          provide cutting-edge and solution oriented legal services, including
-          both litigation work and drafting of agreements, deeds, instruments
-          and other documents, with a quick turnaround time in a broad spectrum
-          of the areas of law including company/corporate/commercial law,
-          contractual matters, service, property law, family law, administrative
-          law, constitutional law, banking, banking offences, civil, family,
-          criminal, rent laws, etc.
+          Although the story of SAK is more of a series of moments, its roots
+          can be traced back to 1980s when Mrs. Seema Wasim independently
+          established the firm under the name of Seema Wasim Law Associates.
+          Initially, the firm practice remained confined to Civil, Banking and
+          Commercial litigation, however, after acquiring extensive knowledge
+          and experience, the team of Mrs. Wasim practiced a wide range of
+          areas. Within few years, Mrs. Wasim was considered as one of the
+          brilliant lawyers by her peers and also amongst the fraternity.
         </p>
       </div>
     </div>
